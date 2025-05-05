@@ -1,7 +1,7 @@
-<h1 align="center">Hey there 👋, I'm Galang</h1>
-<h3 align="center">Frontend Developer | Information Technology Student @ UGM</h3>
+<h1 align="center">Hey there 👋, I'm Galang, a Newbie Web Developer</h1>
+<h3 align="left">Frontend Developer | Information Technology Student @ UGM</h3>
 
-<p align="center">
+<p align="left">
   ✨Passionate about building beautiful and functional web interfaces.<br>
   🔬Currently diving deep into <strong>Web3</strong> and <strong>Blockchain</strong> technologies.<br> 
   📫Let’s connect and build something amazing together<br>
