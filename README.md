@@ -1,4 +1,4 @@
-<h1 align="center">Hey there 👋, I'm Galang, Newbie Web Developer</h1>
+<h1 align="center">Hey there 👋, I'm Galang, a Newbie Web Developer</h1>
 <h3 align="left">Frontend Developer | Information Technology Student @ UGM</h3>
 
 <p align="left">
