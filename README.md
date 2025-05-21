@@ -2,7 +2,7 @@
 <h3 align="left">Frontend Developer | Information Technology Student @ UGM</h3>
 
 <p align="left">
-  ✨Passionate about building beautiful and functional web interfaces.<br>
+  ✨Passionate about building beautiful and functional web interfaces<br>
   🔬Currently diving deep into <strong>Web3</strong> and <strong>Blockchain</strong> technologies.<br> 
   📫Let’s connect and build something amazing together!<br>
 </p>
