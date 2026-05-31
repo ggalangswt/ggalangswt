@@ -44,11 +44,11 @@
 
 ## ╭─ github activity ─╮
 
-<img src="https://streak-stats.demolab.com?user=ggalangswt&theme=tokyonight&hide_border=true" />
+<img src="https://streak-stats.demolab.com?user=ggalangswt&hide_border=true&background=0A0F29&stroke=1e2545&ring=FF6B6B&fire=FF6B6B&currStreakNum=FFFFFF&sideNums=FF6B6B&currStreakLabel=FF6B6B&sideLabels=8b949e&dates=4a5280" />
 
 <br/><br/>
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=ggalangswt&theme=tokyo-night&hide_border=true&area=true&custom_title=Contribution+Graph" width="98%" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=ggalangswt&bg_color=0A0F29&color=8b949e&line=FF6B6B&point=FF6B6B&area_color=FF6B6B&area=true&hide_border=true&custom_title=Contribution+Graph" width="98%" />
 
 </div>
 
@@ -69,7 +69,7 @@
 <br/>
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=ggalangswt&style=flat-square&color=8B5CF6&label=VIEWS" />
+  <img src="https://komarev.com/ghpvc/?username=ggalangswt&style=flat-square&color=FF6B6B&label=VIEWS" />
   <br/><br/>
   <img src="./footer.svg" width="100%" />
 </div>
