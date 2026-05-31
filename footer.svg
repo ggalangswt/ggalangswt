@@ -1,57 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="120" viewBox="0 0 1200 120" fill="none">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="100" viewBox="0 0 1200 100" fill="none">
   <defs>
-    <linearGradient id="g1" x1="0" y1="0" x2="1200" y2="120" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#0d1117"/>
-      <stop offset="30%" stop-color="#1a1040"/>
-      <stop offset="60%" stop-color="#2d1b69"/>
-      <stop offset="100%" stop-color="#0d1117"/>
+    <linearGradient id="g1" x1="0" y1="0" x2="1200" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0A0F29"/>
+      <stop offset="30%" stop-color="#12182e"/>
+      <stop offset="60%" stop-color="#1a1228"/>
+      <stop offset="100%" stop-color="#0A0F29"/>
     </linearGradient>
     <linearGradient id="g2" x1="0" y1="0" x2="1200" y2="0" gradientUnits="userSpaceOnUse">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0"/>
-      <stop offset="20%" stop-color="#8B5CF6" stop-opacity="0.15"/>
-      <stop offset="50%" stop-color="#6D28D9" stop-opacity="0.3"/>
-      <stop offset="80%" stop-color="#8B5CF6" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+      <stop offset="0%" stop-color="#FF6B6B" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#FF6B6B" stop-opacity="0.1"/>
+      <stop offset="50%" stop-color="#FF6B6B" stop-opacity="0.2"/>
+      <stop offset="80%" stop-color="#FF6B6B" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#FF6B6B" stop-opacity="0"/>
     </linearGradient>
-    <linearGradient id="fadeUp" x1="0" y1="0" x2="0" y2="80" gradientUnits="userSpaceOnUse">
+    <linearGradient id="fadeUp" x1="0" y1="0" x2="0" y2="60" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="white" stop-opacity="0"/>
       <stop offset="100%" stop-color="white" stop-opacity="1"/>
     </linearGradient>
-    <mask id="fm"><rect width="1200" height="120" fill="url(#fadeUp)"/></mask>
+    <mask id="fm"><rect width="1200" height="100" fill="url(#fadeUp)"/></mask>
     <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#8B5CF6" stroke-width="0.3" stroke-opacity="0.15"/>
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#FF6B6B" stroke-width="0.3" stroke-opacity="0.1"/>
     </pattern>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
   </defs>
 
-  <!-- Base -->
-  <rect width="1200" height="120" fill="url(#g1)"/>
+  <rect width="1200" height="100" fill="url(#g1)"/>
+  <rect width="1200" height="100" fill="url(#grid)" mask="url(#fm)"/>
+  <rect width="1200" height="100" fill="url(#g2)"/>
 
-  <!-- Grid overlay fading up -->
-  <rect width="1200" height="120" fill="url(#grid)" mask="url(#fm)"/>
+  <line x1="100" y1="65" x2="500" y2="65" stroke="#FF6B6B" stroke-opacity="0.08" stroke-width="0.5"/>
+  <line x1="700" y1="65" x2="1100" y2="65" stroke="#FF6B6B" stroke-opacity="0.06" stroke-width="0.5"/>
 
-  <!-- Gradient glow band -->
-  <rect width="1200" height="120" fill="url(#g2)"/>
-
-  <!-- Horizontal scan lines -->
-  <line x1="100" y1="80" x2="550" y2="80" stroke="#8B5CF6" stroke-opacity="0.1" stroke-width="0.5"/>
-  <line x1="650" y1="80" x2="1100" y2="80" stroke="#8B5CF6" stroke-opacity="0.07" stroke-width="0.5"/>
-
-  <!-- Accent dots -->
-  <circle cx="120" cy="80" r="1.5" fill="#8B5CF6" opacity="0.4">
-    <animate attributeName="opacity" values="0.4;0.15;0.4" dur="3s" repeatCount="indefinite"/>
+  <circle cx="120" cy="65" r="1.5" fill="#FF6B6B" opacity="0.35">
+    <animate attributeName="opacity" values="0.35;0.1;0.35" dur="3s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="1080" cy="80" r="1.5" fill="#8B5CF6" opacity="0.35">
-    <animate attributeName="opacity" values="0.35;0.1;0.35" dur="3.5s" repeatCount="indefinite"/>
+  <circle cx="1080" cy="65" r="1.5" fill="#FF6B6B" opacity="0.3">
+    <animate attributeName="opacity" values="0.3;0.08;0.3" dur="3.5s" repeatCount="indefinite"/>
   </circle>
 
-  <!-- Corner brackets -->
-  <path d="M 30 95 L 30 105 L 40 105" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3" fill="none"/>
-  <path d="M 1170 95 L 1170 105 L 1160 105" stroke="#8B5CF6" stroke-width="1" stroke-opacity="0.3" fill="none"/>
+  <path d="M 24 80 L 24 88 L 32 88" stroke="#FF6B6B" stroke-width="1" stroke-opacity="0.2" fill="none"/>
+  <path d="M 1176 80 L 1176 88 L 1168 88" stroke="#FF6B6B" stroke-width="1" stroke-opacity="0.2" fill="none"/>
 
-  <!-- Center text -->
-  <text x="600" y="100" font-family="JetBrains Mono, SF Mono, Consolas, monospace" font-size="11" fill="#484f58" text-anchor="middle">⌁ ggalangswt ⌁</text>
+  <text x="600" y="82" font-family="JetBrains Mono, SF Mono, Consolas, monospace" font-size="12" fill="#3a4060" text-anchor="middle" letter-spacing="2">⌁ ggalangswt ⌁</text>
 </svg>
